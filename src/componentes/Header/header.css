@@ -95,18 +95,21 @@ header {
     border: none;
     background: none;
     padding: 0;
-    margin: 0;
+    margin: 9px;
     font-family: inherit;
     font-size: inherit;
     color: inherit;
     cursor: pointer;
     color: white;
     font-weight: bold;
+    margin-right: 12px;
+  
   }
 
 
   nav{
     width:  90%;
+ 
   }
 
   .headerNav {
@@ -169,8 +172,8 @@ header {
   flex-direction: column;
   justify-content: center; 
   align-items: flex-end; 
-  margin-right: 130px;
-  margin-top: 160px
+  margin-right: 250px;
+  margin-top: 180px
 }
 
 

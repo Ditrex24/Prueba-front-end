@@ -1,0 +1,30 @@
+.firtsCard{
+    margin-top: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+  }
+  .textFirst{
+    width: 35%;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .textFirst>h1{
+    font-size: 56px;
+    margin-bottom: 10px;
+  }
+  .textFirst>p{
+    font-size: 20px;
+  }
+  .imageFirstCard{
+      background-image: url(../../assets/Pic1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 38%;
+    height: auto;
+    
+
+  }
