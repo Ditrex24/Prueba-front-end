@@ -1,0 +1,14 @@
+.sevenCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    background-color: #34a13f;
+  }
+
+  .sevenCard h1{
+font-size: 60px;
+color: white;
+
+  }

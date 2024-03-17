@@ -9,7 +9,7 @@ import ThreeCard from './componentes/threeCard/threeCard.jsx'
 import FourCard from './componentes/FourCard/FourCard.jsx';
 import FiveCard from './componentes/FiveCard/fiveCard.jsx';
 import SixCard from './componentes/SixCard/sixCard.jsx'
-
+import SevenCard from './componentes/SevenCard/sevenCard.jsx'
 
 const root = createRoot(document.getElementById('root'));
 
@@ -22,6 +22,8 @@ root.render(
     <FourCard/>
     <FiveCard/>
     <SixCard/>
+    <SevenCard/>
+    
     
     
     <App />
