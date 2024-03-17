@@ -1,8 +1,8 @@
 
-import '../componentes/Header/header.css'; 
-import iconImg from '../assets/icongrab.png'; 
-import live from '../assets/live.png'
-import join from '../assets/375.png'
+import './header.css'; 
+import iconImg from '../../assets/icongrab.png'; 
+import live from '../../assets/live.png'
+import join from '../../assets/375.png'
 
 
 
@@ -28,8 +28,8 @@ const Header = () => {
         <button className="navButton">LOREM IPSUM </button>
         <button className="navButton">LOREM IPSUM </button>
       </nav>
-      <div className="Navbackground"></div>
       <img src={iconImg} alt="Icono" className="iconHeadernNav" />
+      <div className="Navbackground"></div>
      
       <div className="contentNavBody">
         <div className="bodyNav">

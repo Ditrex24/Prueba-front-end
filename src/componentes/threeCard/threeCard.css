@@ -1,0 +1,62 @@
+.threeCard{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #34a13f;
+    justify-content: center;
+    gap: 15%;
+    height: auto;
+    max-height: 480px;
+    margin-bottom: 5%;
+  }
+  .threeCardContent{
+    width: 35%;
+  }
+  .textCardThree{
+    font-size: 45px;
+    color: white;
+    padding: 16px;
+    font-weight: bold;
+    text-align:start;
+    margin-left: 20px;
+  }
+  
+  .btnThreeCard{
+    margin-top: 16px;
+    border-radius: 5px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: black;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    margin-left: 20px;
+  }
+  .btnThreeCard2{
+    margin-top: 16px;
+    border-radius: 5px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: transparent;
+    border-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    color: white;
+    margin-left: 20px;
+  }
+  .threeCardImage{
+    object-fit: fill;
+    width: 40%;
+    height: 100%;
+    background-color:rgb(80, 186, 94);
+    padding-right: 10%;
+   
+  }

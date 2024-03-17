@@ -1,0 +1,72 @@
+.fourCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourCardContent {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    gap: 30px; 
+}
+
+.fourCardFile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    font-weight: lighter;
+    font-size: 12px;
+    
+}
+
+.picContainer {
+    width: 100%; 
+    height: auto;
+    position: relative; 
+    
+}
+
+
+
+.picImage {
+    width: 250px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.playButton {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+    z-index: 1;
+  }
+  .playButton img {
+    width: 60px;
+    
+  }
+  
+  .btnStandar {
+    padding: 16px;
+    border: none;
+    color: white;
+    background-color: #2e6f35;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+    cursor: pointer;
+  }
+
+  .btnStandar:hover{
+    background-color: #42db51;
+    color: black;
+  }
+  

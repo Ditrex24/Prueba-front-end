@@ -12,18 +12,18 @@
     padding-right: 35px;
   }
   .textFirst>h1{
-    font-size: 56px;
+    font-size: 38px;
     margin-bottom: 10px;
   }
   .textFirst>p{
-    font-size: 20px;
+    font-size: 18px;
   }
   .imageFirstCard{
       background-image: url(../../assets/Pic1.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 38%;
+    width: 40%;
     height: auto;
     
 
