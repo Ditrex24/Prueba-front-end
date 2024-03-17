@@ -1,0 +1,45 @@
+.sixCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    min-height: 600px;
+    padding: 20px;
+    position: relative;
+    background-image: url('../../assets/Pic6.png'); 
+    background-size: cover; 
+    background-position: center; 
+  }
+
+  .contentContainer {
+    position: relative; 
+    top: 50%;
+    transform: translateY(-50%); 
+    left: 50px; 
+    z-index: 1;
+    max-width: 40%;
+    top: 200px;
+}
+  
+  .title {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .paragraph {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .viewAllButton {
+    background-color: green;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 20px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+  }
